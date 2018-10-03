@@ -10,7 +10,7 @@ sh get_access_logs.sh <sg-id> [start-date] [end-date] [filter-pattern] [max-item
 
 ## Notes: 
 
-* filter-log-events in AWS CLI seems to have has a bug with end-date, if you include it, it always returns no results. A workaround is to use an end-date further than the current date.
+* [!] filter-log-events in AWS CLI seems to have has a bug with end-date, if you include it, it always returns no results. A workaround for this app is to use an end-date further than the current date until this issue is fixed.
 * If you want to use max-items without a filter, just enter "" as your filter.
 
 ### Examples:
